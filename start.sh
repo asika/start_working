@@ -11,7 +11,7 @@ apt-get install -y python-dev
 apt-get install -y exuberant-ctags
 
 # configure vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim | true
 cp vim/.vimrc vim/.my_vimrc $HOME
 
 vim -c VundleUpdate -c quitall
