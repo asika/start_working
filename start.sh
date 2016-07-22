@@ -17,4 +17,4 @@ cp vim/.vimrc vim/.my_vimrc $HOME
 vim -c VundleUpdate -c quitall
 
 # install python deps
-pip install ipython
+pip install -r pip/requirements.txt
