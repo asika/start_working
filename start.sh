@@ -3,6 +3,9 @@ set -ex
 
 apt-get update
 
+# install esssential tools
+apt-get install -y screen
+
 # install dev packages
 apt-get install -y build-essential
 apt-get install -y python-dev
