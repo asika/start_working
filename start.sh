@@ -14,7 +14,9 @@ apt-get install -y default-jre
 
 # dev tools
 apt-get install -y exuberant-ctags
-apt-get install -y htop 
+apt-get install -y htop
+apt-get install -y wget
+apt-get install -y powerline
 
 # configure vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim | true

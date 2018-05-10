@@ -12,11 +12,9 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'https://github.com/elzr/vim-json'
-Plugin 'derekwyatt/vim-scala'
 
 Plugin 'davidhalter/jedi-vim'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'fatih/vim-go'
 
 Bundle 'taglist.vim'
 
